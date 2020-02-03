@@ -1,0 +1,67 @@
+﻿<Window x:Class="YMApp2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YMApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="412.8" Width="527" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="free-vector-blue-degraded-background.jpg"/>
+    </Window.Background>
+    <Grid HorizontalAlignment="Left" Height="370" Margin="19,10,0,0" VerticalAlignment="Top" Width="482">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="161*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Name : " HorizontalAlignment="Left" Margin="0,51,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="58" Grid.Column="1" FontWeight="Bold"/>
+        <Label Content="ID : " HorizontalAlignment="Left" Margin="0,86,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="34" RenderTransformOrigin="1,0.655" Grid.Column="1" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="111" VerticalAlignment="Top" Width="116" Source="67902.png"/>
+        <Button Content="Next" Grid.Column="1" HorizontalAlignment="Left" Margin="172,288,0,0" VerticalAlignment="Top" Width="112" FontWeight="Bold" Height="39" FontSize="14" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="buttons_PNG167.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Back" Grid.Column="1" HorizontalAlignment="Left" Margin="45,288,0,0" VerticalAlignment="Top" Width="112" FontWeight="Bold" Height="39" FontSize="14" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="buttons_PNG167.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Margin="295,7,-13,332" Width="40" Source="house-blue-clipart-2.png" Grid.Column="1"/>
+        <Label Content="Department : " HorizontalAlignment="Left" Margin="0,120,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="95" Grid.Column="1" FontWeight="Bold"/>
+        <Label Content="Level : " HorizontalAlignment="Left" Margin="0,155,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="52" Grid.Column="1" FontWeight="Bold"/>
+        <ComboBox x:Name="ComboBox1" Grid.Column="1" HorizontalAlignment="Left" Margin="146,127,0,0" VerticalAlignment="Top" Width="138" Height="19">
+            
+            <ComboBoxItem Name="CS">CS</ComboBoxItem>
+            <ComboBoxItem Name="IS">IS</ComboBoxItem>
+            <ComboBoxItem Name="IT">IT</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="ComboBox2" Grid.Column="1" HorizontalAlignment="Left" Margin="146,162,0,0" VerticalAlignment="Top" Width="138" Height="19">
+            
+            <ComboBoxItem Name="Frist">Level 1</ComboBoxItem>
+            <ComboBoxItem Name="Second">Level 2</ComboBoxItem>
+            <ComboBoxItem Name="Third">Level 3</ComboBoxItem>
+            <ComboBoxItem Name="Fourth">Level 4</ComboBoxItem>
+            <ComboBoxItem Name="Fivth">Level 5</ComboBoxItem>
+            <ComboBoxItem Name="Sixth">Level 6</ComboBoxItem>
+            <ComboBoxItem Name="Seventh">Level 7</ComboBoxItem>
+            <ComboBoxItem Name="Eighth">Level 8</ComboBoxItem>
+            <ComboBoxItem Name="Nineth">Level 9</ComboBoxItem>
+            <ComboBoxItem Name="Tenth">Level 10</ComboBoxItem>
+
+        </ComboBox>
+        <Label Content="Absence Course :" HorizontalAlignment="Left" Margin="0,189,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="125" Grid.Column="1" FontWeight="Bold"/>
+        <Label Content="Absence Date :" HorizontalAlignment="Left" Margin="0,224,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="125" Grid.Column="1" FontWeight="Bold"/>
+        <DatePicker x:Name="DatePicker1" Grid.Column="1" HorizontalAlignment="Left" Margin="146,225,0,0" VerticalAlignment="Top" Width="138" Background="#00000000" FontSize="11"/>
+        <Label Content="Submitting a new excuse" HorizontalAlignment="Left" Margin="43,2,0,0" VerticalAlignment="Top" FontSize="16" Height="29" Width="223" Grid.Column="1" FontWeight="Bold"/>
+        <Label x:Name="Name" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="146,51,0,0" VerticalAlignment="Top" Width="138"/>
+        <Label x:Name="id1" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="146,86,0,0" VerticalAlignment="Top" Width="138"/>
+        <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="146,196,0,0" VerticalAlignment="Top" Width="138">
+            <ComboBoxItem Name="math">Mathmatics</ComboBoxItem>
+            <ComboBoxItem Name="english">Arabic</ComboBoxItem>
+            <ComboBoxItem Name="Quran">English</ComboBoxItem>
+            <ComboBoxItem Name="Arab">Science</ComboBoxItem>
+        </ComboBox>
+
+    </Grid>
+</Window>
