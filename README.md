@@ -1,8 +1,8 @@
 # YMA-Absence-System
 
-# Description
+### Description
 An application allows to so submit excuses of absence technically instead of submit it by writing on paper, this application contains accounts of all students, teachers, and administrator of absence.
-
+#
 <h3>Student</h3>
 
 ![Student](https://user-images.githubusercontent.com/37452782/73779612-06a36d80-479e-11ea-829b-44e3e194d8bc.gif)
@@ -25,3 +25,5 @@ An application allows to so submit excuses of absence technically instead of sub
 ![Feedback](https://user-images.githubusercontent.com/37452782/73779649-13c05c80-479e-11ea-83cb-4019d8c429c1.gif)
 
 #
+
+
