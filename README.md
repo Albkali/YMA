@@ -26,4 +26,14 @@ An application allows to so submit excuses of absence technically instead of sub
 
 #
 
+<h3>UseCase Diagram</h3>
 
+![usecase](https://user-images.githubusercontent.com/37452782/73784671-ef1cb280-47a6-11ea-8b28-c697e7984d77.JPG)
+
+#
+
+<h3>Sequence Diagram</h3>
+
+![sequence](https://user-images.githubusercontent.com/37452782/73784681-f3e16680-47a6-11ea-9c5d-1d9dc253b2bf.JPG)
+
+#
