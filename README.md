@@ -5,7 +5,7 @@ An application allows to so submit excuses of absence technically instead of sub
 
 <h3>Student</h3>
 
-<a href="https://imgflip.com/gif/3o5xw9"><img src="https://i.imgflip.com/3o5xw9.gif" title="made at imgflip.com"/></a>
+<a href="https://user-images.githubusercontent.com/37452782/73779612-06a36d80-479e-11ea-829b-44e3e194d8bc.gif"></a>
 #
 
 <h3>Admin</h3>
